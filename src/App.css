@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --cyan-color: #06c7e9;
+    --midnight-blue: #030a25;
+    --primary: #6a59ff;
+    --white: #ffffff;
+     --bg: #f5f5f5;
+}
+
+/* Navbar css  starts*/
+.nav-link{
+
+    transition: 1s !important;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    box-shadow: 0 0 20px 10px blueviolet;
+}
+
+.brand-img{
+
+    left: 6rem;
+    top: 1rem;
+
+}
+/* Navbar css  ends*/
+
+.bg-slider{
+    background: url(./assets/img/logo_H.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/img/shadowNight.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+}
+
+.banner p{
+    font-size: 5em !important;
+}
+
+.banner span{
+    font-size: 1em !important;
+    color: 	white !important;
+}
+
+.span-shadow{
+    text-shadow: 10px 5px 50px 	blueviolet;
+}
+
+.mix-box{
+
+    border: 1px solid black !important;
+    box-shadow: 10px 5px 60px 70px black !important;
+
+}
+.bg{
+    background: url(./assets/img/background.avif);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto ;
+
+}
+
+/* Service part starts */
+
+.service-box{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+.service-box:hover{
+    font-size: 3em !important;
+    background-color: var(--midnight-blue);
+    box-shadow: 0 0 25px 10px blueviolet;
+
+}
+/* Service part ends */
+
+
+/* Footer part starts */
+.footer{
+    background-color: var(--midnight-blue);
+}
+
+.footer a{
+    text-decoration: none !important;
+    transition: 0.5s;
+    
+}
+
+.footer a:hover{
+    background-color: black ;
+    box-shadow: 0 0 25px 10px blueviolet;
+
+}
+
+.logo{
+    width: 20rem;
+    height: 20rem;
+
+}
+/* Footer part ends */
+
+
+/* Media part starts */
+
+
+/* Media part ends */
+
+
+/* project part starts */
+
+.project-card{
+    background-color: transparent;
+    /* backdrop-filter: blur(20px); */
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+.project-card:hover{
+    background-color: black;
+    box-shadow: 0 0 35px 2px blueviolet;
+
+}
+
+.project-bg-btn{
+    transition: 0.5s;
+}
+
+.project-bg-btn:hover{
+
+    transform: scale(1.1);
+    background-color: aliceblue!important;
+    color: var(--midnight-blue)!important;
+    box-shadow: 0 0 20px 2px blueviolet!important;
+
+}
+/* project part ends */
+
+.sl{
+    display: block;
+    overflow: hidden;
+}
+.carousel-caption{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.carousel-inner{
+    width: 35% !important;
+    height: 40rem !important;
+    padding-top: 15%;
+    display: flex;
+    align-items: center;   
+}
+
+.blogs-scroll{
+
+    height: 50rem;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    backdrop-filter: blur(20px);
+
+}
+
+.blogs{
+    background-color: transparent !important;
+    color: aliceblue;
+    border: 1px solid white;
+} 
+
+.blogs-light{
+    background-color: aliceblue !important;
+    color: black !important;
+    border: 1px solid black !important;;
+
+}
+
+/* Contact part starts */
+.accordion-body{
+    background-color: var(--midnight-blue);
+    color: aliceblue;
+}
+
+.accordion-button{
+    transition: 0.5s !important;
+}
+.accordion-button:hover{
+    transform: scale(1.04);
+    background-color: black;
+    box-shadow: 0 0 35px 2px blueviolet !important;
+
+}
+
+.contact-form{
+    color: aliceblue;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+.contact-form:hover{
+    background-color: black;
+    box-shadow: 0 0 35px 2px blueviolet !important;
+}
+
+.form-control{
+    transition: 0.5s !important;
+}
+
+.form-control:hover{
+    transform: scale(1.05);
+}
+
+/* Contact part ends */
+
+/* Section title part starts */
+  .my-element {
+    
+    backdrop-filter: blur(20px);
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    animation: blink 3s linear alternate infinite;
+  }
+
+
+  @keyframes blink {
+    25% { 
+        box-shadow: 0 0 35px 2px blueviolet;  
+    }
+    50% { border-color: transparent; }
+    75% { box-shadow: 0 0 35px 2px blueviolet; }
+    100% { border-color: transparent; }
+
+  }
+  /** Section title part endss */

@@ -1,0 +1,53 @@
+:root{
+    --midnight-blue: #030a25;
+
+}
+.scroll-bg{
+
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+    color: aliceblue;
+
+}
+
+.scroll-div{
+    width: auto;
+    height: 35rem;
+
+    overflow: hidden;
+
+}
+
+.make-full-screen{
+    transition: 1s;
+    width: auto;
+    height: auto;
+}
+/* .make-full-screen{
+    
+    width: auto;
+    animation: fullScreen 1s alternate;
+}
+
+@keyframes fullScreen {
+    0%   {max-height: 50%; transition: 1s;}
+    50%   {max-height: 75%;transition: 1s;}
+    75%   {max-height: 100%; transition: 1s;}
+    100% {height: auto;}
+} */
+
+
+.scroll-bg-btn{
+    transition: 0.5s;
+}
+
+.scroll-bg-btn:hover{
+
+    transform: scale(1.1);
+    background-color: var(--midnight-blue)!important;
+    box-shadow: 0 0 35px 2px blueviolet!important;
+
+}

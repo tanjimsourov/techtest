@@ -1,0 +1,17 @@
+:root{
+    --midnight-blue: #030a25;
+}
+
+
+.bg-mid-night{
+    background-color: var(--midnight-blue);
+}
+.text-mid-night{
+    color: var(--midnight-blue);
+}
+.bg-auqa-blue{
+    background-color: aliceblue
+}
+.text-auqa-blue{
+    color: aliceblue
+}
